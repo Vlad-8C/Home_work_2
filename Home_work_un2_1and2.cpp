@@ -10,6 +10,7 @@ int main()
     
     //+++задание №2+++//
     std::string word;
+    setlocale(LC_CTYPE, "rus")
     std::getline(std::cin, word);
     std::cout << "Введите любое слово (только не иероглиф) "; std::cin>>word;
     std::cout<< word << "   __/\\__ Спасибо что не иероглиф"<<std::endl;
